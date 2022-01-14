@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        
+        <div id="app">
+            <contador></contador>
+            <contador></contador>
+            <hr>
+            <br>
+            <br>
+            <post 
+                titulo="El dia de hoy"
+                contenido="Ciudad de Mexico a 13 de enero de 2022"
+            ></post>
+
+            <post 
+                titulo="El dia de ayer"
+                contenido="Ciudad de Mexico a 12 de enero de 2022"
+            ></post>
+            <hr>
+            <br>
+            <br>
+            <hijo numero="1" v-on:botonazo="imprime_boton($event)"></hijo>
+            <hijo numero="2" v-on:botonazo="imprime_boton($event)"></hijo>
+            <hijo numero="3" v-on:botonazo="imprime_boton($event)"></hijo>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        
+        <div id="app">
+            <form id="radios">
+                <input v-model="nombre" placeholder="cual es tu nombre?">
+                <p>Tu nombre es: {{ nombre }}</p>
+                <br>
+                <input type="radio" id="Luis" value="luis" v-model="Nombres_radio">
+                <label for="Luis">Luis</label>
+                <br>
+                <input type="radio" id="Pedro" value="pedro" v-model="Nombres_radio">
+                <label for="Pedro">Pedro</label>
+                <br>
+                <input type="radio" id="Raul" value="raul" v-model="Nombres_radio">
+                <label for="Raul">Raul</label>
+                <br>
+                <span>Nombre seleccionados: {{ Nombres_radio }}</span>
+            </form>
+            <form>
+                <input type="checkbox" id="luis" value="luis" v-model="Nombres">
+                <label for="luis">Luis</label>
+                <br>
+                <input type="checkbox" id="pedro" value="pedro" v-model="Nombres">
+                <label for="pedro">Pedro</label>
+                <br>
+                <input type="checkbox" id="raul" value="raul" v-model="Nombres">
+                <label for="raul">Raul</label>
+                <br>
+                <span>Nombre seleccionados: {{ Nombres }}</span>
+            </form>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
