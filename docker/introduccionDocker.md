@@ -47,10 +47,10 @@ docker run -dp 8080:8080 laboratorio2
 docker ps
 
 ## Detener contenedor
-docker stop <ID del contenedor>
+docker stop < ID del contenedor >
 
 ## Borrar contenedor
-docker rm <ID del contenedor>
+docker rm < ID del contenedor >
 
 # Correr el contenedor
 docker run -dp 3000:3000 laboratorio2
