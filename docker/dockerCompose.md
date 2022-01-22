@@ -1,4 +1,4 @@
-# Crear imagenes personalizadas
+# Ejecutar cliente y servidor al mismo tiempo
 
 ## Instalar docker compose
 
