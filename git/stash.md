@@ -2,6 +2,8 @@
 
 ## Modificar archivo
 git checkout -b fix/autor-readme
+
+
 echo "hecho por lu" >> README
 
 ## Guardar los cambios en el stash
@@ -15,6 +17,8 @@ git checkout master
 
 ## Aplicar el stash
 git checkout fix/autor-readme
+
+
 git stash apply stash@{1}
 
 ## Borrar el stash

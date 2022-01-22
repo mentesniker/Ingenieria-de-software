@@ -3,6 +3,8 @@
 ## Crear archivo LICENCE
 
 echo "MIT LICENCE" > LICENCE
+
+
 git add .
 
 ## Agregar un archivo a un commit anterior (solo local)
