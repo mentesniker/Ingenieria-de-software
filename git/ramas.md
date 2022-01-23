@@ -101,3 +101,5 @@ git commit -m "docs: se agrego el autor del archivo 2 txt"
 git push origin master
 
 ## Mostrar en github como hacer un pull request
+
+## Mostrar en github como solucionar un conflicto de version remoto 
