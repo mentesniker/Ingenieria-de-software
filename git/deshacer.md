@@ -4,8 +4,15 @@
 
 echo "MIT LICENCE" > LICENCE
 
-
 git add .
+
+git commit -m ""
+
+## Descartar ultimos cambios 
+
+echo "Esta licencia..." >> LICENCE
+
+git restore LICENCE
 
 ## Agregar un archivo a un commit anterior (solo local)
 
