@@ -103,3 +103,29 @@ git push origin master
 ## Mostrar en github como hacer un pull request
 
 ## Mostrar en github como solucionar un conflicto de version remoto 
+
+git checkout main
+
+git checkout -b conflictoRemoto
+
+nano nuevoArchivo2.txt
+
+Modificar nuevoArchivo2.txt en el remoto
+
+git add .
+
+git commit -m "feat: se cambio el contenido del archivo remoto"
+
+git push
+
+git checkout main
+
+git pull
+
+git checkout conflictoRemoto
+
+git merge main
+
+git push
+
+## Mostrar en github como abrir issues
